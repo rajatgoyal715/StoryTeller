@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StoryTeller</string>
+    <!-- Enter your Facebook App Id -->
+    <string name="facebook_app_id">###############</string>
+    <string name="description">A perfect partner who narrates your favorite medium articles while you are working or travelling. </string>
+
+    <string name="music_url">https://dl.dropboxusercontent.com/apitl/1/AACOTiLZB-8DHLMBhLfCKh1ePzrLKD7RM6PXYSw0WEsl1dCZIVDleKpt77VKV-3B0t8OAhtkbg3vGt3WzJ8ru6twvpSZjLl6q7Dtrz9PHYROWVvZHPnYUE9OWVFyu7-yOrJzofIo87DtxtTEvUVpvjcc0hwpFuQjheXmJvd2LsiX61UrwcJogNLBGweX3nvWFqIfFjYwaOYXvQ6Q-GW9qL7JYDwHySukBlKgitDBhYrAC8je-Z6ud1NptWVBrZUwDUbuVOSDc5L0M68a5HUaMHNI</string>
+    <string name="post_content">Between January and February 2017, we’ve ranked nearly 1,400 Python articles to pick the Top 10 stories (0.7% chance) that can help advance your career.
+        Topics included in this Python list are: Stock Trading, API Design, Pandas, Scikit-Learn, Numpy, SciPy, Excel, Metaprogramming Facilities, Distributed Tracing, Garbage Collection, Django, Apache Spark. Machine Learning Top 10 is posted separately here.
+        Mybridge AI ranks articles based on the quality of content measured by our machine and a variety of human factors including engagement and popularity.
+        This is a competitive list and you’ll find the experience and techniques shared by Python leaders particularly useful.</string>
+</resources>

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "StoryTeller",
+  "version": "1.2",
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" },
+  "description": "StoryTeller: 'A perfect partner who narrates your favorite medium articles all along while you are working or travelling'. We have build a chrome extension and an android app to convert 'Medium' text article to TTS and in which you can hear whole articles in different voices. Anyone can hear the articles in there mobile app or browser through chrome extension on their way and they don't have to read whole articles. Your StoryTeller will narrate whole stuff in good voice modulation. You can also make the audio speech offline.",
+  "permissions": ["tabs", "*://*.medium.com/*", "http://*/",  "https://*/"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.medium.com/*"],
+      "js": ["jquery.min.js", "chrome.js"],
+      "css": ["main.css"],
+      "fonts": ["fontello.ttf"]
+    }
+  ],
+  "web_accessible_resources": ["main.css"]
+}

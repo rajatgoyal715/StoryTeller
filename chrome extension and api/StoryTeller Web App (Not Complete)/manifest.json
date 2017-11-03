@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "POP",
+  "version": "1.0",
+
+  "description": "Says hello to Google",
+  "permissions": ["tabs", "*://*.medium.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.medium.com/*"],
+      "js": ["jquery.min.js", "chrome.js"]
+    }
+  ]
+}
